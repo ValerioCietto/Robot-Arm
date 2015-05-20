@@ -53,6 +53,10 @@ void setup()
   pinMode(3, OUTPUT); //Initiates left Motor pwm pin
   pinMode(4, OUTPUT); //Initiates right Motor dir pin
   pinMode(5, OUTPUT); //Initiates right Motor pwm pin
+  pinMode(6, OUTPUT); //Initiates left Motor dir pin
+  pinMode(7, OUTPUT); //Initiates left Motor pwm pin
+  pinMode(8, OUTPUT); //Initiates right Motor dir pin
+  pinMode(9, OUTPUT); //Initiates right Motor pwm pin
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 }
